@@ -1,0 +1,321 @@
+body {
+    background-image: url('./images/concrete-texture.png');
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 190%;
+}
+
+header {
+    height: 10%;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-color: #cccccc;
+}
+
+#ah1 {
+    margin: 0px;
+    padding-top: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    color:  #ffffff; 
+    text-align: left;
+    margin-left: 470px;
+    float: left;
+    background-color: #4aaaa5;
+    height: 70%;
+}
+
+#ch1 {
+    margin: 0px;
+    padding-top: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 32px;
+    color:  #ffffff; 
+    text-align: left;
+    margin-left: 441px;
+    float: left;
+    background-color: #4aaaa5;
+    height: 66%;   
+}
+
+#ph1 {
+    margin: 0px;
+    padding-top: 29px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+    color:  #ffffff; 
+    text-align: left;
+    margin-left: 470px;
+    float: left;
+    background-color: #4aaaa5;
+    height: 70%;
+}
+  
+#anav {
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
+    float: right;
+    margin-top: 30px;
+    padding-right: 470px;
+}
+
+#cnav {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#777777;
+    float: right;
+    margin-top: 33px;
+    padding-right: 462px; 
+}
+
+
+#pnav {
+    overflow: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777777;
+    float: right;
+    margin-top: 30px;
+    padding-right: 470px;
+}  
+
+a {
+    color:  #777777;
+}
+
+h2 { 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    border-bottom: solid;
+    border-bottom-color:#cccccc;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin-bottom: 24px;
+}
+
+#bio-image {
+    content: url('../Bio_Web_Pages/images/lorem-ipsum-means-the-pain-good.jpg');
+    width: 200px;
+    height: 200px;
+    margin-left:10px;
+    margin-right: 10px;
+    float: left;
+}
+
+.main-bio {
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    padding-left:10px;
+    padding-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    border: #cccccc thin;
+    border-style: solid; 
+}
+
+.contact-info {
+    width: 960px;
+    margin: auto;
+    margin-top: 40px;
+    padding-left: 24px;
+    padding-right:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    border: #cccccc thin;
+    border-style: solid;
+}
+
+
+#nameInput {
+    width: 940px;
+    height: 4%;
+    margin-top: -20px;
+    padding-left: 0px;
+}
+
+#emailInput {
+    width: 940px;
+    height: 4%; 
+    margin-top: -20px;
+    padding-left: 0px;
+}
+
+#messageInput {
+    width: 940px;
+    height: 20%;
+    margin-top: -20px;
+    padding-left: 0px;
+}
+
+#submitbutton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 11%;
+    height: 5%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.portfolio {
+    width: 960px;
+    height: 700px;
+    margin: auto;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    border: #cccccc thin;
+    border-style: solid;
+}
+
+
+#p-left {
+    content: url('../Bio_Web_Pages/images/hangman9.jpg');
+    width: 250px;
+    height: 250px;
+    border:#cccccc thin;
+    border-style: solid;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    float: left;  
+}
+
+#Hm-text {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+    background-color: #4aaaa5;
+    margin-left: 11px;
+    margin-top: 217px;
+}
+
+#p-right {
+    content: url('../Bio_Web_Pages/images/Khajit_RPG.jpg');
+    width: 250px;
+    height: 250px;
+    border:#cccccc thin;
+    border-style: solid;
+    margin-left:10px;
+    margin-right: 10px;
+    float: left;   
+}
+
+#Rpg-text {
+    position: absolute;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin-top: 182px; 
+}
+
+
+#p-midleft {
+    clear: both;
+    content: url('../Bio_Web_Pages/images/Trivia_Game3.jpg');
+    width: 250px;
+    height: 250px;
+    border:#cccccc thin;
+    border-style: solid;
+    margin-left:10px;
+    margin-right: 10px;
+    float: left;   
+}
+
+#Trivia-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin-top: 182px;   
+}
+
+#p-midright {
+    content: url('../Bio_Web_Pages/images/RI_widget.png');
+    width: 250px;
+    height: 250px;
+    border:#cccccc thin;
+    border-style: solid;
+    margin-left:10px;
+    margin-right: 10px;
+    float: left;    
+}
+
+#Widget-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin-top: 182px;     
+}
+
+#p-lower {
+    content: url('../Bio_Web_Pages/images/R_P_S.png');
+    width: 250px;
+    height: 250px;
+    border:#cccccc thin;
+    border-style: solid;
+    margin-left:10px;
+    margin-right: 10px;
+    float: left;    
+}
+
+#RPS-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    text-align: center;
+    background-color: #4aaaa5;
+    margin-top: 182px;      
+}
+
+#afooter {
+    margin-top: 134px;
+    padding-top:18px;
+    text-align: center;
+    font-size: 8px;
+    color:#ffffff;
+    background-color: #666666;
+    border-top:solid #4aaaa5;
+    border-top-width: 8px;
+    height: 5%;
+}
+
+#cfooter {
+    margin-top: 143px;
+    padding-top:20px;
+    text-align: center;
+    font-size: 9px;
+    color:#ffffff;
+    background-color: #666666;
+    border-top:solid #4aaaa5;
+    border-top-width: 10px;
+    height: 5%; 
+}
+
+#pfooter {
+    margin-top: 56px;
+    padding-top:18px;
+    text-align: center;
+    font-size: 8px;
+    color:#ffffff;
+    background-color: #666666;
+    border-top:solid #4aaaa5;
+    border-top-width: 8px;
+    height: 5%;  
+}
