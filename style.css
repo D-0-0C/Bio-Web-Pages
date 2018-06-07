@@ -7,11 +7,26 @@ body {
     line-height: 190%;
 }
 
+@media screen and (max-width: 767.98px) {
+    body{
+        background-image: url('./images/concrete-texture.png');
+        font-size: 14px;    
+    }
+}
+
+
 header {
     height: 10%;
     background: #ffffff;
     border-bottom-style: solid;
     border-color: #cccccc;
+}
+
+@media screen and (max-width: 767.98px) {
+    header {
+        width: 100%;
+        height: 6%;
+    }
 }
 
 #ah1 {
@@ -28,6 +43,17 @@ header {
     height: 70%;
 }
 
+@media screen and (max-width: 767.98px) {
+    #ah1 {
+        width:100%;
+        font-size: 24px;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    }
+
+}
+
 #ch1 {
     margin: 0px;
     padding-top: 32px;
@@ -40,6 +66,17 @@ header {
     float: left;
     background-color: #4aaaa5;
     height: 66%;   
+}
+
+@media screen and (max-width: 767.98px) {
+    #ch1 {
+        width: 100%;
+        height: 70%;
+        font-size: 24px;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    }
 }
 
 #ph1 {
@@ -55,6 +92,18 @@ header {
     background-color: #4aaaa5;
     height: 70%;
 }
+
+@media screen and (max-width: 767.98px) {
+    #ph1 {
+        width: 100%;
+        height: 70%;
+        font-size: 24px;
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    }
+
+}
   
 #anav {
     overflow: auto;
@@ -63,6 +112,16 @@ header {
     float: right;
     margin-top: 30px;
     padding-right: 470px;
+}
+
+@media screen and (max-width: 767.98px) {
+    #anav {
+        margin: 14px;
+        padding: 6px;
+        text-align: center;
+        float: right;
+    }
+
 }
 
 #cnav {
@@ -74,6 +133,15 @@ header {
     padding-right: 462px; 
 }
 
+@media screen and (max-width: 767.98px) {
+    #cnav {
+        margin: 14px;
+        padding: 6px;
+        text-align: center;
+        float: right;
+    }
+
+}
 
 #pnav {
     overflow: auto;
@@ -83,6 +151,16 @@ header {
     margin-top: 30px;
     padding-right: 470px;
 }  
+
+@media screen and (max-width: 767.98px) {
+    #pnav {
+        margin: 14px;
+        padding: 6px;
+        text-align: center;
+        float: right;
+    }
+
+}
 
 a {
     color:  #777777;
@@ -99,6 +177,16 @@ h2 {
     margin-bottom: 24px;
 }
 
+@media screen and (max-width: 767.98px) {
+    h2 {
+        font-size: 24px;
+        padding: 20px;
+        margin: 6px;
+        text-align: left;
+    }
+
+}
+
 #bio-image {
     content: url('../Bio_Web_Pages/images/lorem-ipsum-means-the-pain-good.jpg');
     width: 200px;
@@ -106,6 +194,15 @@ h2 {
     margin-left:10px;
     margin-right: 10px;
     float: left;
+}
+
+@media screen and (max-width: 767.98px) {
+    #bio-image {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
 }
 
 .main-bio {
@@ -121,6 +218,14 @@ h2 {
     border-style: solid; 
 }
 
+@media screen and (max-width: 767.98px) {
+    .main-bio {
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+
+}
 .contact-info {
     width: 960px;
     margin: auto;
@@ -134,12 +239,27 @@ h2 {
     border-style: solid;
 }
 
+@media screen and (max-width: 767.98px) {
+    .contact-info {
+        width: 100%;
+        padding: auto;
+        margin: auto;
+    }
+}
+
 
 #nameInput {
     width: 940px;
     height: 4%;
     margin-top: -20px;
     padding-left: 0px;
+}
+
+@media screen and (max-width: 767.98px) {
+    #nameInput {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 #emailInput {
@@ -149,6 +269,13 @@ h2 {
     padding-left: 0px;
 }
 
+@media screen and (max-width: 767.98px) {
+    #emailInput {
+        width: 100%;
+        margin: auto;
+    }
+}
+
 #messageInput {
     width: 940px;
     height: 20%;
@@ -156,7 +283,15 @@ h2 {
     padding-left: 0px;
 }
 
-#submitbutton {
+@media screen and (max-width: 767.98px) {
+    #messageInput {
+        width: 100%;
+        margin: auto;   
+     }
+}
+
+
+#submitButton {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     width: 11%;
@@ -165,6 +300,12 @@ h2 {
     background-color: #4aaaa5;
     border-radius: 6px;
     margin-top: 20px;
+}
+
+@media screen  and (max-width: 767.98px) {
+    #submitButton {
+        width: 100%;
+    }
 }
 
 .portfolio {
@@ -181,6 +322,11 @@ h2 {
     border-style: solid;
 }
 
+@media screen and (max-width: 767.98px) {
+    .portfolio {
+        width: 100%;
+    }
+}
 
 #p-left {
     content: url('../Bio_Web_Pages/images/hangman9.jpg');
@@ -194,6 +340,14 @@ h2 {
     float: left;  
 }
 
+@media screen and (max-width: 767.98px) {
+    #p-left {
+        width: 100%;
+    }
+
+}
+
+
 #Hm-text {
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -203,6 +357,13 @@ h2 {
     background-color: #4aaaa5;
     margin-left: 11px;
     margin-top: 217px;
+}
+
+@media screen and (max-width: 767.98px) {
+    #Hm-text {
+        width: 100%;
+    }
+
 }
 
 #p-right {
@@ -216,6 +377,13 @@ h2 {
     float: left;   
 }
 
+@media screen and (max-width: 767.98px) {
+    #p-right {
+        width: 100%;
+    }
+
+}
+
 #Rpg-text {
     position: absolute;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -225,6 +393,13 @@ h2 {
     margin-top: 182px; 
 }
 
+@media screen and (max-width: 767.98px) {
+    #Rpg-text {
+        width: 100%;
+        margin: auto;
+    }
+
+}
 
 #p-midleft {
     clear: both;
@@ -238,6 +413,13 @@ h2 {
     float: left;   
 }
 
+@media screen and (max-width: 767.98px) {
+    #p-midleft {
+        width: 100%;
+    }
+
+}
+
 #Trivia-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
@@ -245,6 +427,14 @@ h2 {
     background-color: #4aaaa5;
     margin-top: 182px;   
 }
+
+@media screen and (max-width: 767.98px) {
+    #Trivia-text {
+        width: 100%;
+    }
+
+}
+
 
 #p-midright {
     content: url('../Bio_Web_Pages/images/RI_widget.png');
@@ -257,12 +447,29 @@ h2 {
     float: left;    
 }
 
+@media screen and (max-width: 767.98px) {
+    #p-midright {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
 #Widget-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     text-align: center;
     background-color: #4aaaa5;
     margin-top: 182px;     
+}
+
+@media screen and (max-width: 767.98px) {
+    #Widget-text {
+        width: 100%;
+        margin: auto;
+    }
+
 }
 
 #p-lower {
@@ -276,12 +483,30 @@ h2 {
     float: left;    
 }
 
+@media screen and (max-width: 767.98px) {
+    #p-lower {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+}
+
+
 #RPS-text {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
     text-align: center;
     background-color: #4aaaa5;
     margin-top: 182px;      
+}
+
+@media screen and (max-width: 767.98px) {
+    #RPS-text {
+        width: 100%;
+        margin: auto;
+    }
+
 }
 
 #afooter {
@@ -296,6 +521,14 @@ h2 {
     height: 5%;
 }
 
+@media screen and (max-width: 767.98px) {
+    #a-footer {
+        width: 100%;
+        
+    }
+
+}
+
 #cfooter {
     margin-top: 143px;
     padding-top:20px;
@@ -308,6 +541,13 @@ h2 {
     height: 5%; 
 }
 
+@media screen and (max-width: 767.98px) {
+    #c-footer {
+        width: 100%;
+    }
+
+}
+
 #pfooter {
     margin-top: 56px;
     padding-top:18px;
@@ -318,4 +558,11 @@ h2 {
     border-top:solid #4aaaa5;
     border-top-width: 8px;
     height: 5%;  
+}
+
+@media screen and (max-width: 767.98px) {
+    #p-footer {
+        width: 100%;
+    }
+
 }
